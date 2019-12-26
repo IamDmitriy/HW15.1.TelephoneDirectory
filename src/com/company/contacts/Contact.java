@@ -1,4 +1,4 @@
-package com.company;
+package com.company.contacts;
 
 public class Contact {
     private String name;
@@ -13,7 +13,5 @@ public class Contact {
     public String toString() {
         return "Имя: " + name + ", Телефон: " + numberPhone;
     }
-
-    //TODO при необходимости переоределим hashCode, equals, toString
 
 }

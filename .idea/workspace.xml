@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ce4ce72-2886-4744-bd25-5486c7819d0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/contacts/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW15.1.TelephoneDirectory/com/company/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW15.1.TelephoneDirectory/com/company/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW15.1.TelephoneDirectory/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW15.1.TelephoneDirectory/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW15.1.TelephoneDirectory/com/company/PhoneContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW15.1.TelephoneDirectory/com/company/PhoneContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Contact.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PhoneContacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/PhoneContacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PhoneContacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/contacts/PhoneContacts.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,19 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StudentsList" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -62,6 +53,18 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,10 +84,62 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1577257387907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577257387907" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1577255444266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577255444266" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1577269375738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577269375738" />
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1577259172869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577259172869" />
+    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1577259172869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577259172869" />
+    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1577259172869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577259172869" />
+    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1577259172869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577259172869" />
+    <state x="184" y="85" key="MergeDialog" timestamp="1577255517426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577255517426" />
+    <state x="672" y="235" key="MultipleFileMergeDialog" timestamp="1577255517442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="235" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577255517442" />
+    <state x="679" y="235" key="VCS.ChangeListViewerDialog" timestamp="1577255447245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="235" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577255447245" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1577268596897">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577268596897" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577255450989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577255450989" />
   </component>
 </project>

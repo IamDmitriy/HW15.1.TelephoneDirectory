@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.contacts.Contact;
+import com.company.contacts.PhoneContacts;
+
 import java.util.Scanner;
 
 public class Main {
@@ -12,20 +15,22 @@ public class Main {
         phoneContacts.addGroup("Друзья");
         phoneContacts.addGroup("Коллеги");
 
-        Contact[] contacts = new Contact[] {
-                new Contact("Bill", "1"),
-                new Contact("Jim", "2"),
-                new Contact("Ed", "2"),
+        Contact[] contacts = new Contact[]{
+                new Contact("Bill", "8-800-576-35-97"),
+                new Contact("Abe", "8-800-576-35-84"),
+                new Contact("Ed", "8-800-576-35-00"),
         };
 
-        phoneContacts.addContactInGroup("Семья", contacts[0]);
-        phoneContacts.addContactInGroup("Друзья", contacts[1]);
-        phoneContacts.addContactInGroup("Коллеги", contacts[2]);
+        phoneContacts.addContact("Семья", contacts[0]);
+        phoneContacts.addContact("Семья", contacts[1]);
+        phoneContacts.addContact("Друзья", contacts[1]);
+        phoneContacts.addContact("Друзья", contacts[2]);
+        phoneContacts.addContact("Коллеги", contacts[2]);
 
         System.out.println("Программа справочник");
 
         while (true) {
-            System.out.println("Введите название группы контактов или введите 'next' для продолжения");
+            System.out.println("Введите название группы контактов или введите 'next', чтобы продолжить");
 
             String input = scanner.nextLine();
 
@@ -47,7 +52,7 @@ public class Main {
 
             System.out.println("Введите номер контакта");
 
-            String numberPhone  = scanner.nextLine();
+            String numberPhone = scanner.nextLine();
 
             Contact curContact = new Contact(name, numberPhone);
 
@@ -56,16 +61,12 @@ public class Main {
             String[] groups = scanner.nextLine().split(" ");
 
             for (String group : groups) {
-                phoneContacts.addContactInGroup(group, curContact);
+                phoneContacts.addContact(group, curContact);
             }
 
             System.out.println("Контакт успешно добавлен в группы!");
         }
 
-
-
         phoneContacts.printContacts();
-
-
     }
 }
